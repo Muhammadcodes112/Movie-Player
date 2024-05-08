@@ -1,14 +1,16 @@
-package com.example.movieplayer;
+package com.example.movieplayer.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class IntroActivity extends AppCompatActivity {
+import com.example.movieplayer.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intro);
+        setContentView(R.layout.activity_login);
     }
 }
